@@ -17,6 +17,10 @@ jobs:
         uses: TinyTapeout/tt-gds-action@ttgf26c
         with:
           pdk: gf180mcuD
+jobs:
+  deploy:
+    environment:
+      name: github-pages
 
   precheck:
     needs: gds
