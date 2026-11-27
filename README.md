@@ -4,7 +4,7 @@
 
 A custom digital Application-Specific Integrated Circuit (ASIC) written in Verilog for the **Tiny Tapeout GF180MCU** shuttle (GlobalFoundries 180 nm open-source process). Pressing and releasing an external pushbutton rolls a pseudo-random 6-sided die with exponential deceleration—modeling a physical die losing momentum on a table—while driving live digits on a 7-segment LED display and generating chiptune square-wave audio effects on a piezo buzzer.
 
-* **Technical Design Report:** [Read the full write-up & verification analysis]([docs/Dice_Roller_ASIC_Technical_Design_Report.pdf](https://docs.google.com/document/d/1Mt7eiRTmFjL-cDM9o5K_2Gxa6C5WE4Lv3SCxppwtxl8/edit?usp=sharing))
+* **Technical Design Report:** [Read the full write-up & verification analysis](https://docs.google.com/document/d/1Mt7eiRTmFjL-cDM9o5K_2Gxa6C5WE4Lv3SCxppwtxl8/edit?usp=sharing)
 * **3D Silicon Layout Viewer:** [Explore the hardened GDSII layout](https://shainadev294-tgr.github.io/dice-roller-asic/)
 * **Target Footprint:** Synthesized to fit inside a **340 µm × 160 µm** shared sub-tile allocation on a `1x1` Tiny Tapeout GF180MCU tile.
 
