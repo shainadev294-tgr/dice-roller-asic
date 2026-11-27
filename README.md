@@ -56,7 +56,7 @@ make -B
 ```
 
 ### Inspect the Resulting Waveform Trace
-Open test/tb.fst in Surfer or run
+Open test/tb.fst in Surfer (https://app.surfer-project.org/) or run
 
 ```bash
 surfer test/tb.fst
