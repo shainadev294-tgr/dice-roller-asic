@@ -28,3 +28,7 @@ This project implements a hardware pseudo-random dice roller with exponential sl
 - **Pushbutton:** Connected between `3.3V` and `ui_in[0]` (with a pull-down resistor if not internally pulled down).
 - **7-Segment Display (Common Cathode):** Segments `a`–`g` connected to `uo_out[0]` through `uo_out[6]` via current-limiting resistors (e.g., 330 Ω).
 - **Piezo Buzzer:** Connected between `uo_out[7]` and `GND`.
+
+## Technical Design Report
+
+For the full architectural breakdown, gate-level waveform analysis, and physical layout verification, see the [Technical Design Report](https://docs.google.com/document/d/1Mt7eiRTmFjL-cDM9o5K_2Gxa6C5WE4Lv3SCxppwtxl8/edit?usp=sharing).
