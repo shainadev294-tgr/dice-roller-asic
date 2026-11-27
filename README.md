@@ -2,10 +2,6 @@
 
 # Dice Roller ASIC (`tt_um_dice_roller`)
 
-[![GDS](https://github.com/shainadev294-tgr/dice-roller-asic/actions/workflows/gds.yaml/badge.svg)](https://github.com/shainadev294-tgr/dice-roller-asic/actions/workflows/gds.yaml)
-[![Docs](https://github.com/shainadev294-tgr/dice-roller-asic/actions/workflows/docs.yaml/badge.svg)](https://github.com/shainadev294-tgr/dice-roller-asic/actions/workflows/docs.yaml)
-[![Test](https://github.com/shainadev294-tgr/dice-roller-asic/actions/workflows/test.yaml/badge.svg)](https://github.com/shainadev294-tgr/dice-roller-asic/actions/workflows/test.yaml)
-
 A custom digital Application-Specific Integrated Circuit (ASIC) written in Verilog for the **Tiny Tapeout GF180MCU** shuttle (GlobalFoundries 180 nm open-source process)[cite: 6]. Pressing and releasing an external pushbutton rolls a pseudo-random 6-sided die with exponential deceleration—modeling a physical die losing momentum on a table—while driving live digits on a 7-segment LED display and generating chiptune square-wave audio effects on a piezo buzzer[cite: 6].
 
 * **3D Silicon Layout Viewer:** [Explore the hardened GDSII layout](https://shainadev294-tgr.github.io/dice-roller-asic/)
@@ -56,3 +52,11 @@ The RTL and gate-level netlist are verified using a Python **Cocotb** testbench 
 ```bash
 cd test
 make -B
+```
+
+### Inspect the Resulting Waveform Trace
+Open test/tb.fst in Surfer or run
+
+```bash
+surfer test/tb.fst
+```
